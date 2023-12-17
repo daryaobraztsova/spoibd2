@@ -1,0 +1,42 @@
+body {
+    background: white;
+}
+aside {
+    float: left;
+    width: 50%;
+    padding: 5%;
+    height: 100vh;
+    font-size: 20px;
+}
+aside img {
+    width: 140px;
+    float: left;
+    position: relative;
+    top: -10px;
+}
+aside .logo {
+    font-size: 34px;
+    margin-left: 5px;
+    font-weight: bold;
+    color: purple;
+    position: relative;
+    top: -10px;
+
+}
+aside h3 {
+    margin-top: 50px;
+    font-size: 28px;
+}
+aside ul {list-style: none}
+aside ul li {
+    display: block;
+    color: black;
+    margin-top: 24px;
+    transition: transform .6s: ease;
+}
+aside ul li:hover, aside ul a:hover {
+    color: purple;
+    text-decoration: none;
+    transform: scale(1.05);
+
+}
